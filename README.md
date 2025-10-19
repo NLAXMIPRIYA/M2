@@ -245,7 +245,7 @@ d.	After the loop, print the factorial value.
 int factorial(int n) {
     int fact = 1;
     for (int i = 1; i <= n; i++) {
-        fact *= i;  // Multiply fact by each number from 1 to n
+        fact *= i; 
     }
     return fact;
 }
