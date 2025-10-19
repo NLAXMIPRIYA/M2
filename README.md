@@ -192,9 +192,9 @@ int main() {
 
     temp = num; 
     for (; temp != 0; temp /= 10) {
-        int digit = temp % 10; // Get last digit
-        if (digit % 2 != 0) {  // Check if digit is odd
-            sum += digit;      // Add to sum if odd
+        int digit = temp % 10;
+        if (digit % 2 != 0) { 
+            sum += digit;     
         }
     }
 
